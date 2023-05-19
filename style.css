@@ -1,0 +1,83 @@
+/* +------------------------+ */
+/* |                        | */
+/* | CSS PARA EL TO-DO LIST | */
+/* |                        | */
+/* +------------------------+ */
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border: none;
+}
+
+body {
+    background-color: #1B3152;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+/* inputs */
+.input {
+    width: 510px;
+    height: 50px;
+
+    margin: 5px;
+    padding: 0px, 20px, 0px, 20px;
+
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.item-input {
+    width: 450px;
+    height: 50px;
+
+    margin: 5px;
+    padding: 0px, 20px, 0px, 20px;
+
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 18px;
+}
+
+/* botones */
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+
+    margin: 5px;
+
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+}
+
+.boton-agregar:hover, .boton-editar:hover, .boton-remover:hover {
+    opacity: 0.9;
+}
+
+.boton-editar {
+    width: 50px;
+    height: 50px;
+
+    margin: 5px;
+
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+.boton-remover {
+    width: 50px;
+    height: 50px;
+
+    margin: 5px;
+
+    border-radius: 10px;
+    background-color: rgb(255, 67, 99);
+    color: white;
+}
+
